@@ -1,0 +1,6 @@
+// Respawn type, see the table below
+respawn = 3;
+// Delay in seconds before playable unit respawns.
+respawnDelay = 5;
+// Delay in seconds before vehicle respawns.
+respawnVehicleDelay = 30;
