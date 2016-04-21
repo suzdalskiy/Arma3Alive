@@ -1,6 +1,32 @@
 // Respawn type, see the table below
+//0 or "NONE" - No respawn
+//1 or "BIRD" - Respawn as a seagull
+//2 or "INSTANT" - Respawn just where you died.
+//3 or "BASE" - Respawn in base.
+//Requires a marker named:
+//respawn_west
+//respawn_east
+//respawn_guerrila
+//respawn_civilian
+//Add markers named with the prefix 'respawn_west' with any suffix (eg: respawn_westABC, respawn_west1, respawn_west_2, etc) for multiple //random respawn points. Similarly for east, guerrilla and civilian.
+//Vehicle respawn in base requires a marker named:
+//respawn_vehicle_west
+//respawn_vehicle_east
+//respawn_vehicle_guerrila
+//respawn_vehicle_civilian
+//4 or "GROUP" - Respawn in your group (if there's no AI left, you'll become a seagull).
+//5 or "SIDE" - Respawn into an AI unit on your side (if there's no AI left, you'll become a seagull). With this respawn type, team switch is //also available to any AI controlled playable units.
 respawn = 3;
 // Delay in seconds before playable unit respawns.
 respawnDelay = 5;
 // Delay in seconds before vehicle respawns.
-respawnVehicleDelay = 30;
+respawnVehicleDelay = 5;
+
+
+onLoadMission = "onLoadMission";
+onLoadIntro = "onLoadIntro"
+
+overviewText = "overviewText";
+overviewTextLocked = "overviewTextLocked";
+overviewPicture = "overviewPicture.paa";
+author = "SSU";

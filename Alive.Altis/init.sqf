@@ -1,0 +1,1 @@
+[] execVM "GameCore.sqf";

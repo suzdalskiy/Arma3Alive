@@ -1,0 +1,1 @@
+hint format ["Hello %1", player ];
