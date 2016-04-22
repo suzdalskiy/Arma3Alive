@@ -1,32 +1,46 @@
+// https://community.bistudio.com/wiki/Description.ext
 // Respawn type, see the table below
-//0 or "NONE" - No respawn
-//1 or "BIRD" - Respawn as a seagull
-//2 or "INSTANT" - Respawn just where you died.
-//3 or "BASE" - Respawn in base.
-//Requires a marker named:
-//respawn_west
-//respawn_east
-//respawn_guerrila
-//respawn_civilian
-//Add markers named with the prefix 'respawn_west' with any suffix (eg: respawn_westABC, respawn_west1, respawn_west_2, etc) for multiple //random respawn points. Similarly for east, guerrilla and civilian.
-//Vehicle respawn in base requires a marker named:
-//respawn_vehicle_west
-//respawn_vehicle_east
-//respawn_vehicle_guerrila
-//respawn_vehicle_civilian
-//4 or "GROUP" - Respawn in your group (if there's no AI left, you'll become a seagull).
-//5 or "SIDE" - Respawn into an AI unit on your side (if there's no AI left, you'll become a seagull). With this respawn type, team switch is //also available to any AI controlled playable units.
+// 0 or "NONE" - No respawn
+// 1 or "BIRD" - Respawn as a seagull
+// 2 or "INSTANT" - Respawn just where you died.
+// 3 or "BASE" - Respawn in base.
+// Requires a marker named:
+// respawn_west
+// respawn_east
+// respawn_guerrila
+// respawn_civilian
+// Add markers named with the prefix 'respawn_west' with any suffix (eg: respawn_westABC, respawn_west1, respawn_west_2, etc) for multiple random respawn points. Similarly for east, guerrilla and civilian.
+// Vehicle respawn in base requires a marker named:
+// respawn_vehicle_west
+// respawn_vehicle_east
+// respawn_vehicle_guerrila
+// respawn_vehicle_civilian
+// 4 or "GROUP" - Respawn in your group (if there's no AI left, you'll become a seagull).
+// 5 or "SIDE" - Respawn into an AI unit on your side (if there's no AI left, you'll become a seagull). With this respawn type, team switch is also available to any AI controlled playable units.
 respawn = 3;
+ 
 // Delay in seconds before playable unit respawns.
 respawnDelay = 5;
+
 // Delay in seconds before vehicle respawns.
-respawnVehicleDelay = 5;
+respawnVehicleDelay = 10;
 
+//When 1, removes all playable units which do not have a human player. When 0, a logging out player will have AI take control of his character. Default value is 0. (MP)
+//disabledAI = 1;
 
-onLoadMission = "onLoadMission";
-onLoadIntro = "onLoadIntro"
+//https://community.bistudio.com/wiki/Multiplayer_Game_Types
+class Header
+{
+	gameType = Sandbox; // Game type, see 'class' columns in the table below
+	minPlayers = 1; //min # of players the mission supports
+	maxPlayers = 10; //max # of players the mission supports
+};
 
-overviewText = "overviewText";
+author="The S-Team";
+OnLoadName = "ALiVE War Sandbox";
+OnLoadMission = "War never changes";
+loadScreen = "overviewPicture.paa";
+
+overviewText = "ALiVE War Sandbox. War never changes";
 overviewTextLocked = "overviewTextLocked";
 overviewPicture = "overviewPicture.paa";
-author = "SSU";
