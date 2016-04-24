@@ -2185,11 +2185,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14438.504,0,13049.284};
+				position[]={14438.504,-8.2492828e-005,13049.284};
 			};
 			id=213;
 			type="ALiVE_mil_placement";
-			atlOffset=3.9220827;
+			atlOffset=3.9220002;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2599,11 +2599,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13998.95,0,12768.752};
+				position[]={13998.95,0.00026798248,12768.752};
 			};
 			id=214;
 			type="ALiVE_mil_OPCOM";
-			atlOffset=8.5827322;
+			atlOffset=8.5830002;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3019,11 +3019,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16311.474,86.225449,17454.943};
+				position[]={20053.109,80.635544,16220.018};
 			};
 			id=218;
 			type="ALiVE_mil_placement";
-			atlOffset=58.792202;
+			atlOffset=58.791996;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3041,7 +3041,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="TAOR_RED_1";
 						};
 					};
 				};
@@ -3117,7 +3117,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="TAOR_BLUE_1";
+							value="TAOR_BLUE_1, TAOR_GRN_1";
 						};
 					};
 				};
@@ -3433,11 +3433,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16424.395,96.401627,17396.141};
+				position[]={20166.031,81.788261,16161.215};
 			};
 			id=219;
 			type="ALiVE_civ_placement";
-			atlOffset=61.13895;
+			atlOffset=61.139004;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3588,7 +3588,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="TAOR_BLUE_1";
+							value="TAOR_BLUE_1, TAOR_GRN_1";
 						};
 					};
 				};
@@ -3702,7 +3702,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="TAOR_RED_1";
 						};
 					};
 				};
@@ -3790,11 +3790,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16307.211,83.544762,17222.807};
+				position[]={20048.848,80.769165,15987.881};
 			};
 			id=220;
 			type="ALiVE_mil_OPCOM";
-			atlOffset=61.306198;
+			atlOffset=61.305996;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3995,7 +3995,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16580.637,68.195015,17542.619};
+				position[]={20322.273,68.449875,16307.693};
 			};
 			id=221;
 			type="ALiVE_mil_cqb";
@@ -5988,8 +5988,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={16539.135,25.458591,17313.135};
-				angles[]={6.2259145,0,0.035984326};
+				position[]={20280.771,22.669834,16078.21};
+				angles[]={0.016004669,0,0.053284902};
 			};
 			id=342;
 			type="ALiVE_mil_placement_custom";
@@ -6918,11 +6918,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13897.425,44.220139,13269.438};
+				position[]={9268.2354,213.76709,18062.16};
 			};
 			id=353;
 			type="ALiVE_mil_placement";
-			atlOffset=57.9291;
+			atlOffset=42.900024;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6940,7 +6940,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="TAOR_GRN_1";
 						};
 					};
 				};
@@ -7016,7 +7016,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="TAOR_BLUE_1";
+							value="TAOR_BLUE_1, TAOR_RED_1";
 						};
 					};
 				};
@@ -7332,11 +7332,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14004.57,34.887825,13349.574};
+				position[]={9350.6465,185.23421,18188.939};
 			};
 			id=354;
 			type="ALiVE_civ_placement";
-			atlOffset=56.968536;
+			atlOffset=41.938995;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7487,7 +7487,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="TAOR_BLUE_1";
+							value="TAOR_BLUE_1, TAOR_RED_1";
 						};
 					};
 				};
@@ -7601,7 +7601,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="TAOR_GRN_1";
 						};
 					};
 				};
@@ -7689,11 +7689,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14081.62,34.621277,13306.326};
+				position[]={9452.4307,201.57419,18099.049};
 			};
 			id=355;
 			type="ALiVE_mil_OPCOM";
-			atlOffset=63.071999;
+			atlOffset=48.042999;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7894,11 +7894,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13861.641,39.358955,13508.912};
+				position[]={9232.4512,164.36243,18301.635};
 			};
 			id=356;
 			type="ALiVE_mil_cqb";
-			atlOffset=42.181293;
+			atlOffset=27.151993;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8194,11 +8194,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14109.373,-2.2376175,13445.604};
+				position[]={9480.1836,125.84254,18238.326};
+				angles[]={0.20635028,0,0.012007865};
 			};
 			id=357;
 			type="ALiVE_mil_placement_custom";
-			atlOffset=15.029224;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8574,28 +8574,32 @@ class Mission
 		class Item89
 		{
 			dataType="Marker";
-			position[]={24430.789,-30.014526,15578.557};
-			name="marker_27";
+			position[]={21225.746,7.8398438,15822.738};
+			name="TAOR_RED_1";
+			text="TAOR_RED_1";
 			markerType="RECTANGLE";
 			type="ellipse";
-			a=8000;
-			b=100000;
-			angle=188.65598;
+			colorName="ColorEAST";
+			a=6000;
+			b=12000;
+			angle=188.65599;
 			id=360;
-			atlOffset=-25.532196;
+			atlOffset=-6.6955051;
 		};
 		class Item90
 		{
 			dataType="Marker";
-			position[]={8113.709,37.245117,15423.446};
-			name="marker_28";
+			position[]={7213.917,-0.52050781,17318.027};
+			name="TAOR_GRN_1";
+			text="TAOR_GRN_1";
 			markerType="RECTANGLE";
 			type="ellipse";
-			a=8000;
-			b=100000;
-			angle=188.65596;
+			colorName="ColorGUER";
+			a=7000;
+			b=12000;
+			angle=188.65599;
 			id=361;
-			atlOffset=-60.099365;
+			atlOffset=-165.22812;
 		};
 	};
 	class Connections
