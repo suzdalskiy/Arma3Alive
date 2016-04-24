@@ -3,6 +3,8 @@ hint format ["Hello %1", player ];
 //https://community.bistudio.com/wiki/isServer
 if (!isServer) exitWith {} ;
 
+hint format ["Hello server %1", player ];
+
 //https://community.bistudio.com/wiki/isDedicated
 //if (!isDedicated) exitWith {} ;
 
