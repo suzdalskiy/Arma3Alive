@@ -44,3 +44,14 @@ loadScreen = "overviewPicture.paa";
 overviewText = "ALiVE War Sandbox. War never changes";
 overviewTextLocked = "overviewTextLocked";
 overviewPicture = "overviewPicture.paa";
+
+//https://community.bistudio.com/wiki/Side_relations
+//side setFriend [side, 1];
+east setFriend [independent, 0];
+independent setFriend [east, 0];
+
+west setFriend [independent, 0];
+independent setFriend [west, 0];
+
+east setFriend [west, 0];
+west setFriend [east, 0];
