@@ -8,11 +8,11 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=377;
+		nextID=378;
 	};
 	class MarkerIDProvider
 	{
-		nextID=28;
+		nextID=29;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14092.567,442.18964,12510.396};
-		dir[]={0.062321801,-0.55640852,0.82857507};
-		up[]={0.04173287,0.83090466,0.55484867};
-		aside[]={0.99718922,8.2189217e-008,-0.0750039};
+		pos[]={14150.742,804.68274,12764.396};
+		dir[]={-0.0069047757,-0.89983028,0.43619016};
+		up[]={-0.014242462,0.43623266,0.89972061};
+		aside[]={0.99987519,5.9117156e-008,0.015828};
 	};
 };
 binarizationWanted=0;
@@ -93,7 +93,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=87;
+		items=88;
 		class Item0
 		{
 			dataType="Group";
@@ -819,12 +819,13 @@ class Mission
 		class Item7
 		{
 			dataType="Marker";
-			position[]={14252.947,4.2717285,13013.033};
+			position[]={14252.374,4.390625,13011.313};
 			name="ALiVE_SUP_MULTISPAWN_RESPAWN_BLU_F";
 			text="ALiVE_SUP_MULTISPAWN_RESPAWN_BLU_F";
 			type="mil_flag";
+			colorName="ColorWEST";
 			id=181;
-			atlOffset=-0.69370222;
+			atlOffset=-0.7066617;
 		};
 		class Item8
 		{
@@ -1402,7 +1403,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="insertion";
+							value="building";
 						};
 					};
 				};
@@ -1503,11 +1504,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13894.826,0,12702.964};
+				position[]={14052.716,0,12667.441};
 			};
 			id=213;
 			type="ALiVE_mil_placement";
-			atlOffset=19.20993;
+			atlOffset=20.743107;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1917,11 +1918,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={13981.135,-3.528595e-005,12755.753};
+				position[]={14115.245,0.00021219254,12832.774};
 			};
 			id=214;
 			type="ALiVE_mil_OPCOM";
-			atlOffset=9.3859997;
+			atlOffset=5.2090001;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1958,7 +1959,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="invasion";
+							value="asymmetric";
 						};
 					};
 				};
@@ -2124,6 +2125,7 @@ class Mission
 			name="respawn_west";
 			text="respawn_west";
 			type="mil_flag";
+			colorName="ColorWEST";
 			id=216;
 			atlOffset=-1.2884531;
 		};
@@ -2132,11 +2134,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20053.109,80.635544,16220.018};
+				position[]={19688.512,82.259148,16699.947};
 			};
 			id=218;
 			type="ALiVE_mil_placement";
-			atlOffset=58.791996;
+			atlOffset=58.791809;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2546,11 +2548,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20166.031,81.788261,16161.215};
+				position[]={19674.055,82.994026,16316.807};
 			};
 			id=219;
 			type="ALiVE_civ_placement";
-			atlOffset=61.139004;
+			atlOffset=61.139244;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2903,11 +2905,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20048.848,80.769165,15987.881};
+				position[]={18763.199,89.35968,17914.438};
 			};
 			id=220;
 			type="ALiVE_mil_OPCOM";
-			atlOffset=61.305996;
+			atlOffset=61.306007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2944,7 +2946,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="occupation";
+							value="invasion";
 						};
 					};
 				};
@@ -3108,11 +3110,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20322.273,68.449875,16307.693};
+				position[]={20230.691,66.513245,16295.121};
 			};
 			id=221;
 			type="ALiVE_mil_cqb";
-			atlOffset=43.875992;
+			atlOffset=43.875484;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -4351,8 +4353,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14362.058,6.0310092,13052.617};
-				angles[]={6.0832272,0,0.073202357};
+				position[]={14205.109,9.1431141,12999.259};
+				angles[]={0.14171043,0,6.2405434};
 			};
 			side="Empty";
 			flags=4;
@@ -4361,7 +4363,7 @@ class Mission
 			};
 			id=315;
 			type="B_Quadbike_01_F";
-			atlOffset=0.069271088;
+			atlOffset=-0.10538149;
 		};
 		class Item47
 		{
@@ -4723,8 +4725,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={20280.771,22.669834,16078.21};
-				angles[]={0.016004669,0,0.053284902};
+				position[]={19645.139,13.475824,15890.294};
+				angles[]={6.2245855,0,0.10758356};
 			};
 			id=342;
 			type="ALiVE_mil_placement_custom";
@@ -5023,11 +5025,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={14066.528,-3.1072898,12698.399};
+				position[]={14314.493,-3.1074228,12722.553};
 			};
 			id=343;
 			type="ALiVE_mil_logistics";
-			atlOffset=11.054474;
+			atlOffset=11.214294;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5653,11 +5655,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9268.2354,213.76709,18062.16};
+				position[]={10016.042,127.21354,17321.654};
 			};
 			id=353;
 			type="ALiVE_mil_placement";
-			atlOffset=42.900024;
+			atlOffset=42.901398;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6067,11 +6069,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9350.6465,185.23421,18188.939};
+				position[]={10283.518,163.20084,18145.766};
 			};
 			id=354;
 			type="ALiVE_civ_placement";
-			atlOffset=41.938995;
+			atlOffset=41.93866;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6424,11 +6426,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9452.4307,201.57419,18099.049};
+				position[]={11411.25,146.46335,16598.748};
 			};
 			id=355;
 			type="ALiVE_mil_OPCOM";
-			atlOffset=48.042999;
+			atlOffset=48.043007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6465,7 +6467,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="occupation";
+							value="invasion";
 						};
 					};
 				};
@@ -6629,11 +6631,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9232.4512,164.36243,18301.635};
+				position[]={8736.4932,194.30434,18463.84};
 			};
 			id=356;
 			type="ALiVE_mil_cqb";
-			atlOffset=27.151993;
+			atlOffset=27.152588;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -6929,8 +6931,8 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={9480.1836,125.84254,18238.326};
-				angles[]={0.20635028,0,0.012007865};
+				position[]={10623.284,97.991234,18818.068};
+				angles[]={6.2791886,0,6.1677012};
 			};
 			id=357;
 			type="ALiVE_mil_placement_custom";
@@ -7229,8 +7231,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14246.525,5.5237842,13034.552};
-				angles[]={0.046631888,0.049619708,6.2511969};
+				position[]={14274.207,6.2191372,12989.556};
+				angles[]={0.08247932,0.049619708,6.2525272};
 			};
 			side="Empty";
 			flags=4;
@@ -7240,7 +7242,7 @@ class Mission
 			};
 			id=358;
 			type="B_Heli_Light_01_armed_F";
-			atlOffset=-0.00073957443;
+			atlOffset=-0.00090265274;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7309,22 +7311,22 @@ class Mission
 		class Item78
 		{
 			dataType="Marker";
-			position[]={21225.746,7.8398438,15822.738};
+			position[]={21681.523,18.47168,16728.254};
 			name="TAOR_RED_1";
 			text="TAOR_RED_1";
 			markerType="RECTANGLE";
 			type="ellipse";
 			colorName="ColorEAST";
-			a=6000;
+			a=7000;
 			b=12000;
-			angle=188.65594;
+			angle=188.65596;
 			id=360;
-			atlOffset=-6.6955051;
+			atlOffset=-10.528904;
 		};
 		class Item79
 		{
 			dataType="Marker";
-			position[]={7213.917,-0.52050781,17318.027};
+			position[]={8383.5771,141.17795,17524.438};
 			name="TAOR_GRN_1";
 			text="TAOR_GRN_1";
 			markerType="RECTANGLE";
@@ -7332,9 +7334,8 @@ class Mission
 			colorName="ColorGUER";
 			a=7000;
 			b=12000;
-			angle=188.65594;
+			angle=188.65591;
 			id=361;
-			atlOffset=-165.22812;
 		};
 		class Item80
 		{
@@ -7622,7 +7623,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="0";
+							value="4";
 						};
 					};
 				};
@@ -7641,7 +7642,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="1";
+							value="2";
 						};
 					};
 				};
@@ -7795,11 +7796,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={15621.261,-26.336151,13027.846};
+				position[]={15621.261,-26.335773,13027.846};
 			};
 			id=375;
 			type="ALiVE_sys_data";
-			atlOffset=48.138878;
+			atlOffset=48.139256;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -7855,7 +7856,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[";
+							value="";
 						};
 					};
 				};
@@ -7893,7 +7894,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="false";
+							value="true";
 						};
 					};
 				};
@@ -7950,7 +7951,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="false";
+							value="true";
 						};
 					};
 				};
@@ -7962,11 +7963,11 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={15790.944,-24.948772,13093.191};
+				position[]={15790.944,-24.948757,13093.191};
 			};
 			id=376;
 			type="ALiVE_SYS_playeroptions";
-			atlOffset=45.230991;
+			atlOffset=45.231007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -8637,6 +8638,16 @@ class Mission
 				nAttributes=35;
 			};
 		};
+		class Item87
+		{
+			dataType="Marker";
+			position[]={14219.141,8.635375,12976.429};
+			name="respawn_vehicle_west";
+			text="respawn_vehicle_west";
+			type="mil_flag";
+			colorName="ColorWEST";
+			id=377;
+		};
 	};
 	class Connections
 	{
@@ -8690,8 +8701,8 @@ class Mission
 			class Item4
 			{
 				linkID=4;
-				item0=214;
-				item1=218;
+				item0=342;
+				item1=220;
 				class CustomData
 				{
 					type="Sync";
@@ -8700,7 +8711,7 @@ class Mission
 			class Item5
 			{
 				linkID=5;
-				item0=219;
+				item0=343;
 				item1=214;
 				class CustomData
 				{
@@ -8710,8 +8721,8 @@ class Mission
 			class Item6
 			{
 				linkID=6;
-				item0=342;
-				item1=220;
+				item0=353;
+				item1=355;
 				class CustomData
 				{
 					type="Sync";
@@ -8720,8 +8731,8 @@ class Mission
 			class Item7
 			{
 				linkID=7;
-				item0=343;
-				item1=214;
+				item0=354;
+				item1=355;
 				class CustomData
 				{
 					type="Sync";
@@ -8730,8 +8741,8 @@ class Mission
 			class Item8
 			{
 				linkID=8;
-				item0=353;
-				item1=355;
+				item0=356;
+				item1=354;
 				class CustomData
 				{
 					type="Sync";
@@ -8740,7 +8751,7 @@ class Mission
 			class Item9
 			{
 				linkID=9;
-				item0=354;
+				item0=357;
 				item1=355;
 				class CustomData
 				{
@@ -8750,8 +8761,8 @@ class Mission
 			class Item10
 			{
 				linkID=10;
-				item0=356;
-				item1=354;
+				item0=370;
+				item1=359;
 				class CustomData
 				{
 					type="Sync";
@@ -8760,8 +8771,8 @@ class Mission
 			class Item11
 			{
 				linkID=11;
-				item0=357;
-				item1=355;
+				item0=370;
+				item1=358;
 				class CustomData
 				{
 					type="Sync";
@@ -8770,8 +8781,8 @@ class Mission
 			class Item12
 			{
 				linkID=12;
-				item0=353;
-				item1=214;
+				item0=370;
+				item1=167;
 				class CustomData
 				{
 					type="Sync";
@@ -8780,8 +8791,8 @@ class Mission
 			class Item13
 			{
 				linkID=13;
-				item0=354;
-				item1=214;
+				item0=370;
+				item1=323;
 				class CustomData
 				{
 					type="Sync";
@@ -8790,8 +8801,8 @@ class Mission
 			class Item14
 			{
 				linkID=14;
-				item0=342;
-				item1=214;
+				item0=370;
+				item1=319;
 				class CustomData
 				{
 					type="Sync";
@@ -8800,8 +8811,8 @@ class Mission
 			class Item15
 			{
 				linkID=15;
-				item0=357;
-				item1=214;
+				item0=218;
+				item1=355;
 				class CustomData
 				{
 					type="Sync";
@@ -8810,8 +8821,8 @@ class Mission
 			class Item16
 			{
 				linkID=16;
-				item0=370;
-				item1=359;
+				item0=219;
+				item1=355;
 				class CustomData
 				{
 					type="Sync";
@@ -8820,8 +8831,8 @@ class Mission
 			class Item17
 			{
 				linkID=17;
-				item0=370;
-				item1=358;
+				item0=342;
+				item1=355;
 				class CustomData
 				{
 					type="Sync";
@@ -8830,8 +8841,8 @@ class Mission
 			class Item18
 			{
 				linkID=18;
-				item0=370;
-				item1=167;
+				item0=357;
+				item1=220;
 				class CustomData
 				{
 					type="Sync";
@@ -8840,8 +8851,8 @@ class Mission
 			class Item19
 			{
 				linkID=19;
-				item0=370;
-				item1=323;
+				item0=353;
+				item1=220;
 				class CustomData
 				{
 					type="Sync";
@@ -8850,8 +8861,8 @@ class Mission
 			class Item20
 			{
 				linkID=20;
-				item0=370;
-				item1=319;
+				item0=354;
+				item1=220;
 				class CustomData
 				{
 					type="Sync";
