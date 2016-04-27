@@ -17,13 +17,18 @@
 // respawn_vehicle_civilian
 // 4 or "GROUP" - Respawn in your group (if there's no AI left, you'll become a seagull).
 // 5 or "SIDE" - Respawn into an AI unit on your side (if there's no AI left, you'll become a seagull). With this respawn type, team switch is also available to any AI controlled playable units.
+
 respawn = 3;
- 
+respawnTemplatesEast [1;2;3] = {"MenuPosition"}
+reviveDelay = 60;
+respawnButton = 1; 
+
 // Delay in seconds before playable unit respawns.
 respawnDelay = 5;
 
 // Delay in seconds before vehicle respawns.
 respawnVehicleDelay = 10;
+
 
 //When 1, removes all playable units which do not have a human player. When 0, a logging out player will have AI take control of his character. Default value is 0. (MP)
 //disabledAI = 1;
