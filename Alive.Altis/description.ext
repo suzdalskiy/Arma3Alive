@@ -18,6 +18,8 @@
 // 4 or "GROUP" - Respawn in your group (if there's no AI left, you'll become a seagull).
 // 5 or "SIDE" - Respawn into an AI unit on your side (if there's no AI left, you'll become a seagull). With this respawn type, team switch is also available to any AI controlled playable units.
 respawn = 3;
+
+respawnTemplates[] = {"MenuPosition"};
  
 // Delay in seconds before playable unit respawns.
 respawnDelay = 5;

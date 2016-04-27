@@ -8,11 +8,11 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=482;
+		nextID=491;
 	};
 	class MarkerIDProvider
 	{
-		nextID=32;
+		nextID=37;
 	};
 	class LayerIndexProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14096.67,302.15994,12751.288};
-		dir[]={0.35306796,-0.60549212,0.71329731};
-		up[]={0.26863414,0.79579574,0.54271698};
-		aside[]={0.89624798,-4.4968328e-007,-0.44362277};
+		pos[]={14079.971,650.79602,12651.544};
+		dir[]={-0.10687787,-0.87239438,0.47705528};
+		up[]={-0.19072665,0.48874822,0.85131985};
+		aside[]={0.97584391,-1.0878066e-006,0.21862637};
 	};
 };
 binarizationWanted=0;
@@ -99,7 +99,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=114;
+		items=121;
 		class Item0
 		{
 			dataType="Group";
@@ -4427,8 +4427,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={14288.127,4.2893491,13068.457};
-				angles[]={0.050622065,0,6.2778587};
+				position[]={14317.752,4.3449316,12992.935};
+				angles[]={6.247201,0,6.2751918};
 			};
 			side="Empty";
 			flags=4;
@@ -4437,7 +4437,6 @@ class Mission
 			};
 			id=319;
 			type="B_Quadbike_01_F";
-			atlOffset=-0.00050210953;
 		};
 		class Item51
 		{
@@ -7325,7 +7324,7 @@ class Mission
 			colorName="ColorEAST";
 			a=7000;
 			b=12000;
-			angle=188.65596;
+			angle=188.65593;
 			id=360;
 			atlOffset=-10.528904;
 		};
@@ -7591,7 +7590,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="2";
+							value="0";
 						};
 					};
 				};
@@ -7629,7 +7628,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="4";
+							value="7";
 						};
 					};
 				};
@@ -10652,6 +10651,76 @@ class Mission
 			};
 			id=475;
 			type="I_MRAP_03_F";
+		};
+		class Item114
+		{
+			dataType="Marker";
+			position[]={13866.828,10.278877,12986.754};
+			name="respawn_west1";
+			text="respawn_west1";
+			type="mil_flag";
+			colorName="ColorWEST";
+			id=484;
+			atlOffset=-1.279789;
+		};
+		class Item115
+		{
+			dataType="Marker";
+			position[]={13350.943,6.4072266,13394.326};
+			name="respawn_west2";
+			text="respawn_west2";
+			type="mil_flag";
+			colorName="ColorWEST";
+			id=485;
+			atlOffset=-0.67377043;
+		};
+		class Item116
+		{
+			dataType="Marker";
+			position[]={13046.39,6.4842796,13249.13};
+			name="respawn_west3";
+			text="respawn_west3";
+			type="mil_flag";
+			colorName="ColorWEST";
+			id=486;
+		};
+		class Item117
+		{
+			dataType="Marker";
+			position[]={12252.334,16.495575,12947.104};
+			name="respawn_west3_1";
+			text="respawn_west3_1";
+			type="mil_flag";
+			colorName="ColorWEST";
+			id=487;
+			atlOffset=0.00020980835;
+		};
+		class Item118
+		{
+			dataType="Marker";
+			position[]={14220.618,8.5446053,12978.515};
+			name="respawn_vehicle_west1";
+			text="respawn_vehicle_west1";
+			type="respawn_motor";
+			id=488;
+		};
+		class Item119
+		{
+			dataType="Marker";
+			position[]={14199.396,9.0958271,12975.837};
+			name="respawn_vehicle_west2";
+			text="respawn_vehicle_west2";
+			type="respawn_air";
+			id=489;
+		};
+		class Item120
+		{
+			dataType="Marker";
+			position[]={14142.037,10.926704,12953.47};
+			name="respawn_west11";
+			text="respawn_west11";
+			type="respawn_inf";
+			id=490;
 		};
 	};
 	class Connections
